@@ -1,0 +1,62 @@
+
+.container {
+  width: 70%;
+  margin: auto;
+
+}
+
+/*.container img{
+	width: 50px;
+}*/
+
+.container h1, .container p{
+  text-align: center;
+}
+
+.register{
+  border: 1px black solid;
+  padding:30px;
+  margin:30px;
+}
+
+.demographics{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+
+.form-group label, .insuranceQuestion label{
+	display:block;
+}
+
+.form-group input[type="text"]{
+	width: 100%;
+	padding:8px;
+	border: 1px black solid;
+}
+
+.container input[type="submit"]{
+	padding:4px;
+	height: 50px;
+	width:100%;
+	color: #ffffff;
+	background-color: #FF6600;
+	margin-top: 20px;
+	
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+@media(max-width: 600px){
+	.container input[type="submit"]{
+		width: 100%;
+		margin-bottom: 5px;
+		margin-top: 0px;
+		margin-left: 0px;
+
+	}
+
+}
