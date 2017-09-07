@@ -5,9 +5,12 @@
 
 }
 
-/*.container img{
-	width: 50px;
-}*/
+.container img{
+	padding-left: 20%;
+	margin-left: 20%;
+	/*padding-right: 10%;
+	margin-right: 10%;*/
+}
 
 .container h1, .container p{
   text-align: center;
