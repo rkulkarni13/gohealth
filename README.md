@@ -1,11 +1,11 @@
-#Requirements
+# Requirements
 Create a web application that will capture and store a patient’s demographic and insurance information
 to expedite the registration process when they arrive at a GoHealth Urgent Care facility. The application
 should check (and display) whether the patient’s insurance is valid and display their insurance copay
 amount specific to an urgent care visit so the patient knows what they will be expected to pay when
 they arrive.
 
-##Details
+## Details
 The application should prompt the user to enter their basic demographic information including:
 - Full name
 - DOB
@@ -24,7 +24,7 @@ center.
 Once the patient has successfully completed their registration – they should be taken to
 https://www.gohealthuc.com/about/
 
-#Technical Details
+# Technical Details
 This application was built with ReactUI and Spring Boot for the backend API.
 In-memory database H2 was used to store the data. JWT was used for generating
 authentication tokens used to call the eligibility API. 
@@ -83,7 +83,7 @@ This endpoint will save a new Registration. Below is an example payload:
 }
 ```
 
-#Known Issues
+# Known Issues
 As the React UI and the Spring Boot application are separate applications which are deployed on different domains,
 when the UI calls the backend API, it is failing with a 401 or 403 status code. We are getting "Invalid CORS Request" 
 response. The reason for this is because the two applications are on different domains, the request is being rejected 
